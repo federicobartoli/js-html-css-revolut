@@ -1,0 +1,85 @@
+
+.clearfix:after{
+     content: '';
+     display: table;
+     clear: both;
+}
+
+header {
+     font-family: 'Spartan', ;
+}
+
+.mc-menu{
+     margin: 40px 0px 40px;
+     height: 80px;
+     /* background-color: red; */
+
+}
+
+.mc-menu-sx{
+     height: 100%;
+     /* background-color: black; */
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+.mc-menu-sx img {
+     height: 28px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+     cursor: pointer;
+}
+
+.mc-menu-dx{
+     display: flex;
+     align-items: center;
+     height: 100%;
+}
+
+.mc-nav-margin{
+     margin-left: 30px;
+
+}
+
+.mc-nav {
+     font-family: 'Roboto' ;
+     padding-left: 10px;
+}
+.mc-nav a{
+     text-decoration: none;
+     color: #8b959e;
+     padding-right: 15px;
+     transition: all 0.2s ease 0s;
+}
+
+.mc-nav a:hover {
+     color: black;
+}
+
+.mc-uppercase {
+     text-transform: uppercase;
+}
+
+.mc-capitalize{
+     text-transform: capitalize;
+}
+
+#pg-active {
+     color:black;
+}
+
+#btn-purple{
+     background-color: rgb(235, 0, 141);
+     color: white;
+     transition: all 0.2s ease 0s;
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+}
+
+#btn-purple:hover {
+     color: black;
+}
