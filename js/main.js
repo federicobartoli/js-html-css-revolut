@@ -39,8 +39,9 @@ $(document).ready(function () {
           $('.mc-dropdown').children('a').removeClass('ruota');
           $('.mc-dropdown2').children('a').removeClass('ruota');
           $('.mc-dropdown2').children('div').removeClass('mc-active2');
-
      })
+
+
 
 
 
