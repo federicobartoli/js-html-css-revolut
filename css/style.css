@@ -12,8 +12,10 @@ header {
 .mc-menu{
      margin: 20px 0px 20px;
      height: 80px;
-     /* background-color: red; */
+}
 
+.white {
+     background-color: white;
 }
 
 .mc-menu-sx{
@@ -118,6 +120,12 @@ header {
 
 .mc-nav a.mc-open-menu.ruota::after {
      content: '\f106';
+}
+
+.mc-1 {
+     width: 100%;
+     height: 600px;
+
 }
 
 
